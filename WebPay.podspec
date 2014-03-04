@@ -9,4 +9,5 @@ Pod::Spec.new do |s|
   s.source_files        = 'WebPay/**/*.{h,m}'
   s.public_header_files = 'WebPay/**/*.h'
   s.requires_arc = true
+  s.dependency 'Stripe', '~> 1.0.2'
 end
